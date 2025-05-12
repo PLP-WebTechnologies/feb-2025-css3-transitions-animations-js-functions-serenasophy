@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.clicked {
+  animation: bounce 0.4s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
